@@ -1,0 +1,85 @@
+body{
+  text-align: center;
+  width: 960px;
+  margin: 0 auto;
+  display: block;
+}
+header{
+  text-align: left;
+  background: black;
+  color:white;
+  margin: 0 auto;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  font: helvetica, sans-serif;
+  font-size: 18px;
+  color: white;
+}
+a:hover{
+  background: blue;
+}
+main{
+  background: orange;
+  font-family: georgia, serif;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* Styling for Contact Form*/
+form{
+  vertical-align: top;
+}
+
+fieldset{
+  padding: 10px;
+}
+input{
+ vertical-align: top;
+  width: 50%;
+  margin: 10px;
+}
+textarea{
+  width: 50%;
+}
+
+
+/*styling for Home Page*/
+.feature-recipe-container{
+  border: inset;
+  background: tan;
+  width: 80%;
+  border-radius: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  position: relative;
+}
+img{
+  width: 220px;
+  height: 150px;
+  float: left;
+  border: solid;
+  position-left: absolute;
+}
+#columns1, #columns2, #columns3{
+ width: 250px; 
+ float: left;
+ margin: 20px;
+}
+.mailing-list-container{
+  clear: both;
+}
+button{
+  border:inset;
+}
+
+footer{
+  background: black;
+  color: white;
+  margin: 0 auto;
+  padding: 10px;
+}
+footer li{
+  display: block;
+}
